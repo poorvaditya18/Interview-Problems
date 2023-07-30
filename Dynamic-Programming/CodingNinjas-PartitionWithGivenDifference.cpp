@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+#define ll long long 
 ll mod = 1e9+7;
 int countNoOfSubset(vector<int> &arr , int n ,int sum)
 {
@@ -52,7 +52,7 @@ int countPartitions(int n, int d, vector<int> &arr)
     // calculate s1 because -> we will find the count of subsets whose sum is s1 . 
     // this reduces to count no of subset with a given sum problem . 
 
-    //edge case  --> 
+    //edge case  -->  since we cannot have negative value of sum and we cannot have decimal value.
     if(sum-d <0 || (sum-d)%2 ) return 0;
 
     int s1 = (sum+d)/2;
