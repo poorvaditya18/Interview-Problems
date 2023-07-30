@@ -23,7 +23,7 @@ public:
     //     return max(pick ,notPick);
     // }
 
-    //  Memoization --> 
+    //  Memoization Bottom Up Approach --> 
     int rob(vector<int>& nums)
     {
         int n=nums.size();
@@ -42,7 +42,7 @@ public:
     //     return dp[ind]=max(pick,notPick);
     // }
 
-    // using Tablulation Bottom up Approach to avoid Recursive calls  ->
+    // using Top Down Approach Dp  to avoid Recursive calls  ->
     int f(int ind,vector<int>&nums,vector<int>&dp)
     {
         // initialisation 
