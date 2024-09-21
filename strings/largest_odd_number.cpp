@@ -39,16 +39,6 @@ public:
 
 int main()
 {
-    /*
-    Input : s = "0214638"
-    Output : "21463"
-
-    Explanation : The different odd numbers that can be formed by the given string are --> 1, 3, 21, 63, 463, 1463, 21463.
-
-    We cannot include 021463 as the number contains leading zero.
-
-    So largest odd number in given string is 21463.
-    */
     Solution s;
     string str, res;
     cin>>str;
